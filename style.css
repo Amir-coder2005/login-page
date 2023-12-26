@@ -33,6 +33,7 @@ body {
   border-radius: 2rem;
   display: flex;
   flex-direction: row;
+  margin-bottom: 1rem;
 }
 .left {
   width: 50%;
@@ -135,6 +136,12 @@ input {
 }
 input::placeholder {
   color: rgba(118, 114, 114, 0.527);
+}
+.louder{
+  margin: 0 auto;
+  text-align: center;
+  height: 70px;
+  display: none;
 }
 .sub_btn {
   margin: 2rem auto;
