@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>login-page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <h1 class="title">logein page</h1>
-        </div>
+      <div class="container">
+        <h1 class="title">logein page</h1>
+      </div>
     </header>
     <main class="main">
-        <div class="container">
-            <div class="side-wrraper">
-                <section class="left">
-                    <div class="filter">
-                        <h4 class="left_top__text">thegood<br>network</h4>
-                        <hr class="orange_hr">
-                        <p class="first_p">we are</p>
-                        <p class="second_p">Invit only right now</p>
-                        <p class="third_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat nulla quis dolore repudiandae.</p>
-                        <p class="already">Already have an account?</p>
-                        <a href="#" class="sign_in">sign in</a>
-                    </div>
-                </section>
-                <section class="right"></section>
+      <div class="side-wrraper">
+        <section class="left">
+          <div class="filter">
+            <h4 class="left_top__text">thegood<br />network</h4>
+            <hr class="orange_hr" />
+            <p class="first_p">we are</p>
+            <p class="second_p">Invit only right now</p>
+            <p class="third_p">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+              nulla quis dolore repudiandae.
+            </p>
+            <p class="already">Already have an account?</p>
+            <a href="#" class="sign_in">sign in</a>
+          </div>
+        </section>
+        <section class="right">
+          <div class="right_wrraper">
+            <h1 class="left_title">sign up</h1>
+            <form action="#" id="form" class="form">
+              <label for="email" class="label">Email address</label>
+              <input
+                type="email"
+                name="email"
+                class="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+              <label for="password" class="label">Set password</label>
+              <input
+                type="password"
+                class="password"
+                name="password"
+                id="password"
+                placeholder="Enter password"
+              />
+              <!-- <label for="show_password">show password</label>
+                            <input type="checkbox" name="show_password" id="show_password" class="show_password"> -->
+              <button type="submit" class="sub_btn" id="sub_btn" disabled>
+                Sign up
+              </button>
+            </form>
+            <div class="span_hr">
+              <hr class="dark" />
+              <span class="or">or</span>
+              <hr class="dark" />
             </div>
-        </div>
+            <a href="#" class="google">continue with google</a>
+          </div>
+        </section>
+      </div>
     </main>
     <script src="./js/app.js"></script>
-</body>
+  </body>
 </html>
