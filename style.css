@@ -45,7 +45,7 @@ body {
   );
   border-radius: 2rem;
   padding: 4rem 0.5rem;
-  padding-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 
 .filter {
@@ -137,7 +137,7 @@ input {
 input::placeholder {
   color: rgba(118, 114, 114, 0.527);
 }
-.louder{
+#spinner {
   margin: 0 auto;
   text-align: center;
   height: 70px;
@@ -153,10 +153,10 @@ input::placeholder {
   font-size: 1.1rem;
   margin-left: 0.5rem;
   color: #fff;
+  cursor: pointer;
 }
-.sub_btn:disabled{
-  background: none;
-  background-color: gray;
+.sub_btn:disabled {
+  background: gray;
   color: #000;
 }
 .span_hr {
@@ -189,4 +189,30 @@ input::placeholder {
   padding: 1rem 0;
   border-radius: 0.5rem;
   margin-left: 1.1rem;
+}
+
+/* set error style */
+.error_div {
+  color: rgba(255, 0, 0, 0.655);
+  text-align: center;
+  background-color: rgb(233, 182, 182);
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 2rem;
+  line-height: 2;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+/* set success style */
+.success_div {
+  color: rgba(0, 68, 0, 0.661);
+  text-align: center;
+  background-color: rgb(128, 206, 128);
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 2rem;
+  line-height: 2;
+  margin: 0 auto;
+  margin-top: 1rem;
 }
